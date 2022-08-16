@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@types/tailwindcss": "^3.1.0",
+    "nuxt": "3.0.0-rc.6",
+    "tailwindcss": "^3.1.7"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.6",
+    "@nuxtjs/axios": "^5.13.6",
+    "element-plus": "^2.2.11",
+    "uuid": "^8.3.2"
+  }
+}

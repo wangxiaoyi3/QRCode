@@ -1,0 +1,28 @@
+server:
+  servlet:
+    context-path: /test
+spring:
+  profiles:
+    include: custom
+  datasource:
+    url: jdbc:mysql://172.0.0.1:3306/test?useUnicode=true&useSSL=false&characterEncoding=utf8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+  security:
+    user:
+      name: test
+      password: test
+      roles:
+        - user
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  jackson:
+    default-property-inclusion: non_null #设置json解析不设置null值
+mybatis-plus:
+  type-aliases-package: com.wangyit.test.entity
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

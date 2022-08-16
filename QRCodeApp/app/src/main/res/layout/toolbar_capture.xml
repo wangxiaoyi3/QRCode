@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.appcompat.widget.Toolbar-->
+<!--    android:id="@+id/toolbar"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    app:contentInsetLeft="0dp"-->
+<!--    app:contentInsetStart="0dp">-->
+<!--    <include layout="@layout/top_title_back_bar"/>-->
+
+
+<!--</androidx.appcompat.widget.Toolbar>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.qrcode.ConfirmActivity">
+
+    <com.hjq.bar.TitleBar
+        android:id="@+id/tb_qr_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:leftIcon="@drawable/btn_back_selector"
+        app:rightIcon="@drawable/btn_image_selector"
+        app:lineVisible="false"
+        app:title="@string/qr_code_text"
+        app:titleColor="@android:color/white" />
+
+</LinearLayout>

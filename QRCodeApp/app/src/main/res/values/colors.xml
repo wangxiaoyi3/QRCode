@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="common_window_background_color">#FAFAFA</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white50">#80FFFFFF</color>
+    <color name="white25">#40FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="black50">#80000000</color>
+    <color name="black40">#66000000</color>
+    <color name="black30">#4D000000</color>
+
+    <color name="gray">#9A9A9A</color>
+    <color name="gray20">#ECECEC</color>
+    <color name="gray30">#4D686868</color>
+
+    <color name="btn_confirm_sign_in">#2196F3</color>
+    <color name="btn_confirm_sign_in_click">#03A9F4</color>
+</resources>
